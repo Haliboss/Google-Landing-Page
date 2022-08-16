@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    height: 48px;
+    min-width: auto;
+    position: relative;
+    margin-top: 5px;    
+}
+
+ul {
+    margin: 0 10px;
+    padding: 10px 10px;
+    position:relative;
+    list-style-type: none;
+    display: inline-flex;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+ul li {
+    /* margin-top: 1%; */
+    padding: 0 10px;
+}
+
+.ul1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.ul2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
+
+a{
+    text-decoration: none;
+}
+#sidebar {
+    /* cursor: pointer; */
+    /* position: absolute;
+    top: 10%;
+    right: 5.5%;
+    padding: 10px; */
+}
+
+.btn {
+    /* position: absolute;
+    top: 22%;
+    right: 1.5%; */
+    background-color: rgb(25, 137, 228);
+    cursor: pointer;
+    height: 30px;
+    width: 65px;
+    color: white;
+    border: 1px solid rgb(39, 138, 231);
+}
+
+section {
+    text-align: center;
+    padding: 5px;
+}
+
+.logo {
+    margin: 15% 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search {
+    /* border: 1px solid red; */
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.search input{
+    width: 420px;
+    height: 35px;
+    border-radius: 30px;
+    font-size: 20px;
+    padding-left: 60px;
+}
+
+#ara-btn {
+    position: relative;
+    display: inline;
+    left: 40px;
+    cursor: pointer;
+    /* width: 5%; */
+}
+
+#mic {
+    position: relative;
+    display: inline;
+    right: 40px;
+    cursor: pointer;
+    /* width: 2.5%; */
+}
+
+.search-second {
+    margin: 15px;
+    display: inline-flex;
+}
+
+#g-ara {
+    margin-right: 10px;
+    padding: 5px 25px;
+}
+
+#lucky {
+    margin-left: 5px;
+    padding: 5px 25px;
+}
